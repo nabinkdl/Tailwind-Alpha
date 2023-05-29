@@ -1,2 +1,2 @@
 <b>Hello</b>
-<img src="/image/result.png" alt="">
+<img src="/public/image/result.png" alt="">
