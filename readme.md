@@ -1,2 +1,2 @@
 <b>Hello</b>
-<img src="./image/result.svg" alt="">
+<img src="./land.png" alt="">
