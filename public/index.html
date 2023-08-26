@@ -14,18 +14,39 @@
 
 
     <style>
+        @media screen and (max-width: 600px) {
+          
+            .page{
+           display: none;
+          }
 
-@media only screen and (min-width: 900px) {
-  body {
-    background-color: rgb(0, 0, 0);
-  }
-}
-    </style>
+          
+        }
+        
+
+        @media screen and (min-width: 600px) {
+            .Mobile{
+            display:none;
+            display: flex;
+            justify-content: center;
+            visibility: hidden;
+            overflow: hidden;
+            margin: 0px;
+            display: flex;
+            z-index: -5;
+          }
+
+         
+
+        }
+        </style>
 </head>
-<body class="bg-orange-50">
-   
-    <div>
-    <nav class=" bg-orange-50 fixed w-full flex justify-between py-5 px-10 items-center  z-50 m-0">
+<body class="bg-orange-50 ">
+
+    <div class="Mobile flex justify-center items-end m-8"> Not Responsive in Mobile !! </div>
+<div class="page">
+    <div >
+    <nav class=" bg-orange-50 fixed w-full flex justify-between py-5 px-10 items-center  z-50 m-0 top-0">
         <div>
             <img src="./iconland/CaretRight.svg" alt="">
         </div>
@@ -98,6 +119,8 @@
             </div>
         </div>
     </section>
+
+</div>
 
 
     
